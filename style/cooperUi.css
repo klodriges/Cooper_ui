@@ -1,0 +1,48 @@
+:root {
+  --bg-color: rgb(30, 30, 40);
+  --acc-color: #2E7C32;
+  --acc2-color: #F4AC45;
+  --shadow-color: rgba(0, 0, 0, 0.6);
+  --txt-color: white;
+  --gradient: linear-gradient(45deg, #7EA16B 5%, #2E7C32 100%);
+  --gradientColor: #2E7C32;
+  --gradient2: linear-gradient(45deg, #335A7C 5%, #1C3144 100%);
+  --gradient2Color: #1C3144;
+  --gradientRainbow: linear-gradient(45deg, #FF0000, #FF7F00, #FFFF00, #00FF00, #0000FF, #2E2B5F, #8B00FF);
+}
+
+body {
+  background: var(--bg-color);
+  font-family: Comfortaa, cursive;
+  cursor: default;
+}
+
+.topBar {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 40px;
+  width: 100%;
+  background: var(--acc-color);
+  text-align: center;
+}
+
+.topOption {
+  background: var(--acc-color);
+  color: var(--txt-color);
+  width: 10%;
+  float: left;
+  height: 30px;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.topOption:hover {
+  cursor: pointer;
+  background: var(--bg-color);
+}
+
+.unclickable:hover {
+  cursor: default;
+  background: var(--acc-color);
+}
